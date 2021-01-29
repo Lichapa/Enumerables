@@ -1,6 +1,6 @@
 # require 'rspec'
 # rubocop:disable Metrics/LineLength
-require_relative '../enumerable'
+require_relative '../enumerables'
 
 RSpec.describe Enumerable do
   let(:my_array) { %w[Ijay Mike Nana] }
