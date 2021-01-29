@@ -17,12 +17,6 @@ This is project is an Enumerable module that gets mixed into the Array and Hash 
 - Modify your `#my_map` method to take a proc instead.
 
 - Modify your `#my_map` method to take either a proc or a block. It won't be necessary to apply both a proc and a block in the same #my_map call since you could get the same effect by chaining together one #my_map call with the block and one with the proc. This approach is also clearer, since the user doesn't have to remember whether the proc or block will be run first. So if both a proc and a block are given, only execute the proc.
-
-
-
-![image](https://user-images.githubusercontent.com/30318155/96740450-22e54a00-13c1-11eb-9c76-be93fc24c524.png)
-
-
 # Built With
 
 - Ruby
